@@ -1,0 +1,42 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Semua output training, checkpoint, metrik, prediksi dan visualisasi otomatis
+outputs/runs/*
+!outputs/runs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.tmp
+*.log
+
+# Data publik diberikan lewat ZIP, tidak otomatis masuk repo GitHub.
+data/
+imports/komodo/*
+!imports/komodo/.gitkeep
+
+# Notebook utama, README, requirements dan dokumentasi tetap bisa di-commit.
+outputs/legacy_checkpoint1/
+outputs/unified/
+archive/
+tmp/
+cp1_verify_*/
+execution_status.json
+*.pkl
+*.zip
+*.pdf
+
+/docs/

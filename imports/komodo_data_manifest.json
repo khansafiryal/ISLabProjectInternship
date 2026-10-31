@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "labels": [
+    "O",
+    "ACCIDENT-EVENT",
+    "AFFECTEDOBJECTS-ARG",
+    "DEATHVICTIM-ARG",
+    "EARTHQUAKE-EVENT",
+    "FALSE-EVENT",
+    "FIRE-EVENT",
+    "FLOOD-EVENT",
+    "INFORMATION-ARG",
+    "OFFICER-ARG",
+    "PLACE-ARG",
+    "REASON-ARG",
+    "STREET-ARG",
+    "TIME-ARG",
+    "WOUNDVICTIM-ARG"
+  ],
+  "train_ids_sha256": "25dc97fc2fbcbd0bfbc33307a42e504bbe1c27557722bf8ffc19632b9624189f",
+  "test_ids_sha256": "a5da6841c3e159070ae89740744f713611e5975854e4353438152e3c292f6171",
+  "unlabeled_sha256": "5f40eda56f0eeeb9cf015b55fef5ee19d46d30e7f7c915c609bc463ec0431ea5"
+}

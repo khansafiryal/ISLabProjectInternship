@@ -1,0 +1,20 @@
+# Instal PyTorch dengan CUDA sesuai driver/GPU terlebih dahulu via https://pytorch.org/get-started/locally/
+# Sengaja TIDAK menimpa instalasi torch GPU yang sudah berjalan.
+
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+transformers>=4.45,<6
+accelerate>=0.33,<2
+safetensors>=0.4
+sentencepiece>=0.2
+protobuf>=4.25
+ipykernel>=6.29
+ipython>=8.18
+jupyterlab>=4
+nbformat>=5.9
+
+# Baseline CRF yang digunakan template asal
+sklearn-crfsuite>=0.5
