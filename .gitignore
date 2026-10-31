@@ -40,3 +40,5 @@ execution_status.json
 *.pdf
 
 /docs/
+/outputs/
+/imports/
